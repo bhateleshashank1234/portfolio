@@ -1,1 +1,68 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <meta name="description" content="Interactive Resume">\n    <title>Interactive Resume</title>\n    <style>\n        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }\n        header { background: #007bff; color: white; padding: 10px 20px; text-align: center; }\n        section { padding: 20px; }\n        h2 { color: #007bff; }\n        .container { max-width: 800px; margin: auto; }\n    </style>\n</head>\n<body>\n    <header>\n        <h1>Your Name</h1>\n        <p>Your Tagline or Professional Summary</p>\n    </header>\n    <div class="container">\n        <section id="experience">\n            <h2>Experience</h2>\n            <ul>\n                <li>Job Title - Company Name (Year - Year)\n                    <p>Job responsibilities and achievements...</p>\n                </li>\n                <li>Job Title - Company Name (Year - Year)\n                    <p>Job responsibilities and achievements...</p>\n                </li>\n            </ul>\n        </section>\n        <section id="projects">\n            <h2>Projects</h2>\n            <ul>\n                <li>Project Name - Brief description...</li>\n                <li>Project Name - Brief description...</li>\n            </ul>\n        </section>\n        <section id="skills">\n            <h2>Skills</h2>\n            <ul>\n                <li>Skill 1</li>\n                <li>Skill 2</li>\n                <li>Skill 3</li>\n            </ul>\n        </section>\n        <section id="education">\n            <h2>Education</h2>\n            <ul>\n                <li>Degree - Institution (Year)</li>\n                <li>Degree - Institution (Year)</li>\n            </ul>\n        </section>\n        <section id="certifications">\n            <h2>Certifications</h2>\n            <ul>\n                <li>Certification Name (Year)</li>\n                <li>Certification Name (Year)</li>\n            </ul>\n        </section>\n    </div>\n</body>\n</html>\n
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shashank Bhatele's Resume</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: linear-gradient(to right, #00c6ff, #0072ff); color: #333; }
+    header { text-align: center; padding: 20px; }
+    .container { max-width: 1200px; margin: auto; padding: 20px; }
+    h1 { font-size: 2.5em; animation: fadeIn 1s; }
+    section { margin: 20px 0; padding: 20px; border-radius: 10px; background: rgba(255, 255, 255, 0.9); box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    @media (max-width: 768px) { .skills, .projects { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shashank Bhatele</h1>
+    <h2>Interactive Resume</h2>
+  </header>
+  <div class="container">
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>Product Management Trainee at Acadmus</li>
+        <li>Wealth Officer at Bajaj Capital</li>
+        <li>Data Science Intern at MedTourEasy</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div>Zomato/Blinkit Analysis</div>
+        <div>YouTube vs TikTok Analysis</div>
+        <div>Customer Behavior Analytics Platform</div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><strong>Product Management</strong></div>
+        <div><strong>Research & Analysis</strong></div>
+        <div><strong>Technical Tools</strong></div>
+      </div>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>MBA at BITS Pilani</li>
+        <li>B.Tech at Bharati Vidyapeeth College</li>
+      </ul>
+    </section>
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>[Certification 1]</li>
+        <li>[Certification 2]</li>
+      </ul>
+    </section>
+  </div>
+  <script>
+    // JavaScript interactive functionality can be added here
+  </script>
+</body>
+</html>
